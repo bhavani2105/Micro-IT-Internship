@@ -1,7 +1,5 @@
 // Simple form submit handler
-document
-  .getElementById("contact-form")
-  .addEventListener("submit", function (e) {
-    e.preventDefault();
-    alert("Thank you for contacting me!");
-  });
+document.getElementById("contactForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Thank you for contacting me!");
+});

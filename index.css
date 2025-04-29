@@ -19,15 +19,15 @@ body {
 }
 
 header {
-  background: #1a1919;
-  color: #1be009;
+  background: #f0eeee;
+  color: #de09f1;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 44px;
 }
 h2 {
   margin-bottom: 20px;
@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: rgb(247, 18, 106);
   text-decoration: none;
   font-weight: bold;
 }
@@ -132,14 +132,14 @@ footer {
   background-color: #0d1d13;
   color: white;
 }
-/*.form-content {
+form-content {
   margin-top: 50px;
   margin: 50px;
   display: flex;
   justify-content: center;
   padding: 5px;
   width: 1000px;
-}*/
+}
 
 #button {
   display: flex;
@@ -180,7 +180,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.button_container {
+.button {
   display: flex;
   justify-content: center;
   padding-left: 30px;
